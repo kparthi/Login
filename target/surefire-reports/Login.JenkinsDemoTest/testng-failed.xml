@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Login.JenkinsDemoTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Login.JenkinsDemoTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="login" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- Login.JenkinsDemoTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Login.JenkinsDemoTest] -->
