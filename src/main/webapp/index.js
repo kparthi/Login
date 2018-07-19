@@ -9,9 +9,9 @@ $(document).ready(function(){
 		//}
 		if(name=='kparthi'&&Pword=='12345'){
 			window.location.href = "http://www.prodapt.com/";
-		}
-		else if (name=='testuser'&&Pword=='testuser'){
-		window.location.href = "http://www.prodapt.com/";
+		//}
+		//else if (name=='testuser'&&Pword=='testuser'){
+		//window.location.href = "http://www.prodapt.com/";
 	}
 else{
 	alert('Please provide valid username and password');
