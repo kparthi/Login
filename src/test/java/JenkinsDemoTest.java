@@ -22,9 +22,9 @@ public class JenkinsDemoTest {
 	@Test(dataProvider="getdata")
 	public void login(String username,String password) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\parthiban.k\\workspace\\Testing\\lib\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\parthiban.k\\.jenkins\\workspace\\lib\\chromedriver.exe");
 	     WebDriver driver=new ChromeDriver();
-		File file = new File("C:\\Users\\parthiban.k\\workspace\\Login\\src\\test\\java\\jk.properties");
+		File file = new File("C:\\Users\\parthiban.k\\.jenkins\\workspace\\Firstmaven\\src\\test\\java\\jk.properties");
 		  
 		FileInputStream fileInput = null;
 		try {
